@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Testando o bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/estilo.css">
+</head>
+<body>
+	<div class="row">
+		<div class="col-5">
+			<figure>
+			  <blockquote class="blockquote">
+			    <p class="text-success">A well-known quote, contained in a blockquote element.</p>
+			  </blockquote>
+			  <figcaption class="blockquote-footer">
+			    Someone famous in <cite title="Source Title">Source Title</cite>
+			  </figcaption>
+			</figure>
+		</div>
+		<div class="col-5">
+			<img src="img/coxinha.png" class="img-thumbnail">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<table class="table table-primary table-dark table-striped table-hover">
+			  <thead>
+			    <tr>
+			      <th scope="col">#</th>
+			      <th scope="col">First</th>
+			      <th scope="col">Last</th>
+			      <th scope="col">Handle</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <th scope="row">1</th>
+			      <td>Mark</td>
+			      <td>Otto</td>
+			      <td>@mdo</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">2</th>
+			      <td>Jacob</td>
+			      <td>Thornton</td>
+			      <td>@fat</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">3</th>
+			      <td colspan="2">Larry the Bird</td>
+			      <td>@twitter</td>
+			    </tr>
+			  </tbody>
+			</table>
+		</div>
+		<div class="col-12">
+			<button class="btn btn-primary">Confirmar</button>
+			<button class="btn btn-secondary">Confirmar</button>
+			<button class="btn btn-success">Confirmar</button>
+			<button class="btn btn-danger">Confirmar</button>
+			<button class="btn btn-warning">Confirmar</button>
+			<button class="btn btn-info">Confirmar</button>
+			<button class="btn btn-dark">Confirmar</button>
+		</div>
+		<div class="col-12 px-5">
+			<form>
+			  <div class="form-floating mb-3">
+			    <input type="email" class="form-control" id="exampleInputEmail1">
+			    <label for="exampleInputEmail1">Email address</label>
+			    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+			  </div>
+			  <div class="mb-3">
+			    <label for="exampleInputPassword1" class="form-label">Password</label>
+			    <input type="password" class="form-control">
+			  </div>
+			  <div class="mb-3 form-check">
+			    <input type="checkbox" class="form-check-input">
+			    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+			  </div>
+			  <div class="form-check form-switch">
+			  	<input type="checkbox" name="chkswitch" class="form-check-input">
+			  	<label class="form-check-label">Checkbox switch</label>
+			  </div>
+			</form>
+		</div>
+	</div>
+	<div class="row">
+		<div class="accordion" id="accordionExample">
+		  <div class="accordion-item">
+		    <h2 class="accordion-header" id="headingOne">
+		      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+		        Accordion Item #1
+		      </button>
+		    </h2>
+		    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+		      <div class="accordion-body">
+		        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+<div class="row">
+	<div class="col-5 col-lg-5 col-sm-12">
+		<div class="row">
+			<div class="col-4">
+				<p class="h1 text-success" style="color: var(--bs-pink)!important;">Titulo1</p>
+			</div>
+			<div class="col-4">
+				<p class="text-danger">Titulo2</p>
+			</div>
+			<div class="col-4">
+				<h1 class="text-primary">Titulo3</h1>
+			</div>
+		</div>
+	</div>
+	<div class="col-5 col-lg-5 col-sm-4">
+		<div class="row">
+			<div class="col-4"></div>
+			<div class="col-4"></div>
+			<div class="col-4"></div>
+		</div>
+	</div>
+	<div class="col-5 col-lg-5 col-sm-4">
+		<div class="row">
+			<div class="col-4"></div>
+			<div class="col-4"></div>
+			<div class="col-4"></div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col">
+		<div class="alert alert-success">
+			São 20:52!!!
+		</div>
+	</div>
+</div>	
+<div class="modal fade" id="id_modal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="row">
+				<div class="col p-5">
+					<form>
+					  <div class="form-floating mb-3">
+					    <input type="email" class="form-control" id="exampleInputEmail1">
+					    <label for="exampleInputEmail1">Email address</label>
+					    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+					  </div>
+					  <div class="mb-3">
+					    <label for="exampleInputPassword1" class="form-label">Password</label>
+					    <input type="password" class="form-control">
+					  </div>
+					  <div class="mb-3 form-check">
+					    <input type="checkbox" class="form-check-input">
+					    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+					  </div>
+					  <div class="form-check form-switch">
+					  	<input type="checkbox" name="chkswitch" class="form-check-input">
+					  	<label class="form-check-label">Checkbox switch</label>
+					  </div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#id_modal">
+  Abrir
+</button>
+
+<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

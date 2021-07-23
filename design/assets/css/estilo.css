@@ -1,0 +1,46 @@
+body{
+	/*background: #000;*/
+}
+
+div{
+	/*border: solid 2px;*/
+	/*border-color: #fff;*/
+	min-height: 50px;
+	/*border-radius: 50px;*/
+}
+
+.row{
+	border-color: #f00;
+}
+
+.container-sm{
+	border: solid 10px;
+	/*width: 50%;*/
+	height: 100px;
+}
+
+/*@media (max-width: 1460px){
+
+	body{
+		background: #000;		
+	}
+
+	.corpo{
+		width: 1400px;
+		border-color: #fff;
+	}
+}
+@media (max-width: 1200px){
+	body{
+		background: green;
+	}
+	.corpo{
+		width: 1150px;
+	}
+}
+
+@media (max-width:  260px){
+	.corpo{
+		width: 200px;
+	}
+}*/
